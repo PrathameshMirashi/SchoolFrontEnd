@@ -59,6 +59,7 @@ function Signup() {
               name="email"
               placeholder="Enter email"
               onChange={(e) => setEmail(e.target.value)}
+              required
             />
           </div>
           <div className="mb-3">
